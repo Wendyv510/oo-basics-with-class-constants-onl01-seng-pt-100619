@@ -23,4 +23,5 @@ end
 
 BRANDS = ["Uggs", "Rainbow", "Nike"]
 BRANDS.size
+end
 
