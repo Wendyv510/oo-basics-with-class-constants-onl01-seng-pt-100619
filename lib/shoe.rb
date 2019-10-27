@@ -21,6 +21,6 @@ class Shoe
 end 
 
 
-Uggs = shoe.new
-Rainbow = shoe.new
-Nike = shoe.new
+Uggs = brand.new
+Rainbow = brand.new
+Nike = brand.new
