@@ -4,6 +4,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    BRANDS << brand 
   end
   
   BRANDS = []
@@ -11,16 +12,6 @@ class Shoe
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
-  end
-  
-  def brand=(brand)
-    @brand=brand
-    BRAND << brand.unique 
-    
-     brands = ["Uggs", "Rainbow"]
-      brands.each do |brand|
-        Shoe.new(brand)
-      end 
   end 
 
 end 
