@@ -4,7 +4,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS << unique_brand 
+    BRANDS << brand 
   end
   
   BRANDS = []
@@ -14,14 +14,9 @@ class Shoe
     puts "Your shoe is as good as new!"
   end 
   
-  def unique_brand 
-    brand.each do |brands|
-    end 
     
 
 end 
 
-BRANDS = ["Uggs", "Rainbow", "Nike"]
-BRANDS.size
-end
+
 
