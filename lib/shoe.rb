@@ -21,6 +21,6 @@ class Shoe
 end 
 
 
-Uggs = brand.new
-Rainbow = brand.new
-Nike = brand.new
+Uggs = shoe.new("Uggs")
+Rainbow = shoe.new("Rainbow")
+Nike = shoe.new("Nike")
