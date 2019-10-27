@@ -16,5 +16,6 @@ class Shoe
 
 end 
 
-
+BRANDS = ["Uggs", "Rainbow", "Nike"]
+BRANDS.size
 
