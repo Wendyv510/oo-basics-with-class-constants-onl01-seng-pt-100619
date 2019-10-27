@@ -17,7 +17,10 @@ class Shoe
     @brand=brand
     BRAND << brand.unique 
     
-    
+     brands = ["Uggs", "Rainbow"]
+      brands.each do |brand|
+        Shoe.new(brand)
+      end 
   end 
 
 end 
