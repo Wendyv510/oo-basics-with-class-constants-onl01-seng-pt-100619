@@ -19,3 +19,7 @@ class Shoe
   end 
 
 end
+
+shoe.new("Uggs")
+shoe.new("Rainbow")
+shoe.new("Nike")
