@@ -24,3 +24,4 @@ end
  brands = ["Uggs", "Rainbow"]
       brands.each do |brand|
         Shoe.new(brand)
+      end 
