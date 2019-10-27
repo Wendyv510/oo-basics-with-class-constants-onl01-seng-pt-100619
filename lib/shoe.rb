@@ -18,8 +18,9 @@ class Shoe
     BRAND << brand.unique 
   end 
 
-end
+end 
 
-shoe.new("Uggs")
-shoe.new("Rainbow")
-shoe.new("Nike")
+
+Uggs = shoe.new
+Rainbow = shoe.new
+Nike = shoe.new
